@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Welcome to Our Website",
+    "subtitle": "Discover amazing content and services",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Our Features",
+    "feature1": {
+      "title": "Feature One",
+      "description": "Description of the first feature"
+    },
+    "feature2": {
+      "title": "Feature Two", 
+      "description": "Description of the second feature"
+    },
+    "feature3": {
+      "title": "Feature Three",
+      "description": "Description of the third feature"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "learn_more": "Learn More"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success"
+  }
+}

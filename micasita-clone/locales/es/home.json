@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Bienvenido a Nuestro Sitio Web",
+    "subtitle": "Descubre contenido y servicios increíbles",
+    "cta": "Comenzar"
+  },
+  "features": {
+    "title": "Nuestras Características",
+    "feature1": {
+      "title": "Característica Uno",
+      "description": "Descripción de la primera característica"
+    },
+    "feature2": {
+      "title": "Característica Dos",
+      "description": "Descripción de la segunda característica"
+    },
+    "feature3": {
+      "title": "Característica Tres",
+      "description": "Descripción de la tercera característica"
+    }
+  }
+}

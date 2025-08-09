@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "learn_more": "Saber Más"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "success": "Éxito"
+  }
+}
