@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
         <meta name="description" content="Welcome to Micasita - Your trusted community resource" />
       </Head>
       
-      <main className="min-h-screen bg-gray-50">
+      <main className="bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
             Welcome to Micasita
