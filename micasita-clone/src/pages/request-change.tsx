@@ -43,7 +43,7 @@ const RequestChangePage: React.FC = () => {
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <p className="text-lg text-gray-600 mb-4">
               Help us keep our website current and accurate by submitting content change requests. 
-              Whether you've found outdated information, broken links, or have suggestions for improvements, 
+              Whether you&#39;ve found outdated information, broken links, or have suggestions for improvements, 
               we appreciate your feedback.
             </p>
             <div className="bg-blue-50 border-l-4 border-blue-400 p-4">
