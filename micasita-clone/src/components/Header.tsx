@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 interface HeaderTabProps {
   label: string;
@@ -8,8 +10,9 @@ interface HeaderTabProps {
 
 const HeaderTab: React.FC<HeaderTabProps> = ({ label, href, isActive = false }) => {
   return (
-    <a
+    <Link
       href={href}
+      aria-current={isActive ? 'page' : undefined}
       className={`px-4 py-2 text-sm font-medium transition-colors duration-200 ${
         isActive
           ? 'text-blue-600 border-b-2 border-blue-600'
@@ -17,7 +20,7 @@ const HeaderTab: React.FC<HeaderTabProps> = ({ label, href, isActive = false }) 
       }`}
     >
       {label}
-    </a>
+    </Link>
   );
 };
 
@@ -29,8 +32,11 @@ const Header: React.FC = () => {
     { label: 'Staff', href: '/staff' },
     { label: 'Links', href: '/links' },
     { label: 'Contact Us', href: '/contact' },
-    { label: 'eCashier', href: '/ecashier' }
+    { label: 'eCashier', href: '/eCashier' }
   ];
+
+  const router = useRouter();
+  const currentPath = router.pathname;
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
@@ -52,19 +58,19 @@ const Header: React.FC = () => {
                 key={index}
                 label={tab.label}
                 href={tab.href}
-                isActive={tab.href === '/'} // You can make this dynamic based on current route
+                isActive={currentPath === tab.href}
               />
             ))}
           </nav>
 
           {/* eCashier Button Section */}
           <div className="flex items-center">
-            <a 
+            <Link 
               href="/eCashier" 
               className="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200"
             >
               eCashier
-            </a>
+            </Link>
           </div>
         </div>
       </div>
