@@ -12,47 +12,83 @@ const ProgramsPage: React.FC = () => {
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
-            Our Programs
+            Programs
           </h1>
+          <p className="text-gray-600 mb-4">
+            MiCasita offers many methods of enrollment for your children.
+          </p>
           
-          <div className="grid gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-semibold text-blue-800 mb-4">Community Support Services</h2>
-              <p className="text-gray-600 mb-4">
-                Comprehensive support services designed to help community members access essential resources.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Resource navigation</li>
-                <li>Case management</li>
-                <li>Emergency assistance</li>
-                <li>Referral services</li>
-              </ul>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Toddler Community */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="flex flex-col">
+                <div className="w-full aspect-square">
+                  <img 
+                    src="/api/placeholder/500/500" 
+                    alt="Toddler Community" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6 flex flex-col">
+                  <h2 className="text-2xl font-semibold text-blue-800 mb-4">Toddler Community</h2>
+                  <p className="text-gray-600 mb-4">
+                    18 months to 3 years old
+                    <br /><br />
+                    Full Day Montessori immersion progam for your toddler.        
+                  </p>
+                  <div className="mt-auto">
+                    <a href="/toddler-community" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                  </div>
+                </div>
+              </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-semibold text-green-800 mb-4">Educational Programs</h2>
-              <p className="text-gray-600 mb-4">
-                Educational initiatives to empower community members with knowledge and skills.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Financial literacy workshops</li>
-                <li>Language classes</li>
-                <li>Computer skills training</li>
-                <li>Health education</li>
-              </ul>
+            {/* Children's House */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="flex flex-col">
+                <div className="w-full aspect-square">
+                  <img 
+                    src="/api/placeholder/500/500" 
+                    alt="Children's House" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6 flex flex-col">
+                  <h2 className="text-2xl font-semibold text-green-800 mb-4">Children's House</h2>
+                  <p className="text-gray-600 mb-4">
+                    3 to 6 years old
+                    <br /><br />
+                    Children can enter this program as early as 2 years 9 months, if they are fully toilet trained and developmentally ready.
+                  </p>
+                  <div className="mt-auto">
+                    <a href="/childrens-house" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                  </div>
+                </div>
+              </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-2xl font-semibold text-purple-800 mb-4">Family Services</h2>
-              <p className="text-gray-600 mb-4">
-                Specialized services supporting families and children in our community.
-              </p>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Childcare assistance</li>
-                <li>Parenting classes</li>
-                <li>Youth programs</li>
-                <li>Family counseling</li>
-              </ul>
+            {/* Family Services */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="flex flex-col">
+                <div className="w-full aspect-square">
+                  <img 
+                    src="/api/placeholder/500/500" 
+                    alt="Family Services" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6 flex flex-col">
+                  <h2 className="text-2xl font-semibold text-purple-800 mb-4">Family Services</h2>
+                  <p className="text-gray-600 mb-4">
+                    All age groups
+                    <br /><br />
+                    Ranging from buenas dias to summer exploration, look at what more Mi Casita can offer.
+                  </p>
+                  <div className="mt-auto">
+                    <a href="/family-services" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
