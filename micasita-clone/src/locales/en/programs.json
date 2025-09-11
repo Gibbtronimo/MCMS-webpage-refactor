@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Programs - Micasita",
+    "description": "Explore our comprehensive community programs and services"
+  },
+  "header": {
+    "title": "Programs",
+    "subtitle": "MiCasita offers many methods of enrollment for your children."
+  },
+  "programs": {
+    "toddler_community": {
+      "title": "Toddler Community",
+      "age_range": "18 months to 3 years old",
+      "description": "Full Day Montessori immersion progam for your toddler.",
+      "alt_text": "Toddler Community",
+      "read_more": "Read More",
+      "link": "/toddler-community"
+    },
+    "childrens_house": {
+      "title": "Children's House",
+      "age_range": "3 to 6 years old",
+      "description": "Children can enter this program as early as 2 years 9 months, if they are fully toilet trained and developmentally ready.",
+      "alt_text": "Children's House",
+      "read_more": "Read More",
+      "link": "/childrens-house"
+    },
+    "family_services": {
+      "title": "Family Services",
+      "age_range": "All age groups",
+      "description": "Ranging from buenas dias to summer exploration, look at what more Mi Casita can offer.",
+      "alt_text": "Family Services",
+      "read_more": "Read More",
+      "link": "/family-services"
+    }
+  }
+}

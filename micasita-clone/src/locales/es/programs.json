@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Programas - Micasita",
+    "description": "Explora nuestros programas y servicios comunitarios integrales"
+  },
+  "header": {
+    "title": "Programas",
+    "subtitle": "MiCasita ofrece muchos métodos de inscripción para sus hijos."
+  },
+  "programs": {
+    "toddler_community": {
+      "title": "Comunidad de Niños Pequeños",
+      "age_range": "18 meses a 3 años de edad",
+      "description": "Programa de inmersión Montessori de día completo para su niño pequeño.",
+      "alt_text": "Comunidad de Niños Pequeños",
+      "read_more": "Leer Más",
+      "link": "/toddler-community"
+    },
+    "childrens_house": {
+      "title": "Casa de los Niños",
+      "age_range": "3 a 6 años de edad",
+      "description": "Los niños pueden ingresar a este programa desde los 2 años y 9 meses, si están completamente entrenados para ir al baño y listos para el desarrollo.",
+      "alt_text": "Casa de los Niños",
+      "read_more": "Leer Más",
+      "link": "/childrens-house"
+    },
+    "family_services": {
+      "title": "Servicios Familiares",
+      "age_range": "Todos los grupos de edad",
+      "description": "Desde buenos días hasta exploración de verano, vea qué más puede ofrecer Mi Casita.",
+      "alt_text": "Servicios Familiares",
+      "read_more": "Leer Más",
+      "link": "/family-services"
+    }
+  }
+}

@@ -1,21 +1,26 @@
 import React from 'react';
 import Head from 'next/head';
+import { GetStaticProps } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-i18next';
 
 const ProgramsPage: React.FC = () => {
+  const { t } = useTranslation('programs');
+
   return (
     <>
       <Head>
-        <title>Programs - Micasita</title>
-        <meta name="description" content="Explore our comprehensive community programs and services" />
+        <title>{t('meta.title')}</title>
+        <meta name="description" content={t('meta.description')} />
       </Head>
       
       <main className="min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
-            Programs
+            {t('header.title')}
           </h1>
           <p className="text-gray-600 mb-4">
-            MiCasita offers many methods of enrollment for your children.
+            {t('header.subtitle')}
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -25,19 +30,19 @@ const ProgramsPage: React.FC = () => {
                 <div className="w-full aspect-square">
                   <img 
                     src="/api/placeholder/500/500" 
-                    alt="Toddler Community" 
+                    alt={t('programs.toddler_community.alt_text')} 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 flex flex-col">
-                  <h2 className="text-2xl font-semibold text-blue-800 mb-4">Toddler Community</h2>
+                  <h2 className="text-2xl font-semibold text-blue-800 mb-4">{t('programs.toddler_community.title')}</h2>
                   <p className="text-gray-600 mb-4">
-                    18 months to 3 years old
+                    {t('programs.toddler_community.age_range')}
                     <br /><br />
-                    Full Day Montessori immersion progam for your toddler.        
+                    {t('programs.toddler_community.description')}        
                   </p>
                   <div className="mt-auto">
-                    <a href="/toddler-community" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                    <a href={t('programs.toddler_community.link')} className="text-blue-600 hover:text-blue-800 transition-colors duration-200">{t('programs.toddler_community.read_more')}</a>
                   </div>
                 </div>
               </div>
@@ -49,19 +54,19 @@ const ProgramsPage: React.FC = () => {
                 <div className="w-full aspect-square">
                   <img 
                     src="/api/placeholder/500/500" 
-                    alt="Children's House" 
+                    alt={t('programs.childrens_house.alt_text')} 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 flex flex-col">
-                  <h2 className="text-2xl font-semibold text-green-800 mb-4">Children's House</h2>
+                  <h2 className="text-2xl font-semibold text-green-800 mb-4">{t('programs.childrens_house.title')}</h2>
                   <p className="text-gray-600 mb-4">
-                    3 to 6 years old
+                    {t('programs.childrens_house.age_range')}
                     <br /><br />
-                    Children can enter this program as early as 2 years 9 months, if they are fully toilet trained and developmentally ready.
+                    {t('programs.childrens_house.description')}
                   </p>
                   <div className="mt-auto">
-                    <a href="/childrens-house" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                    <a href={t('programs.childrens_house.link')} className="text-blue-600 hover:text-blue-800 transition-colors duration-200">{t('programs.childrens_house.read_more')}</a>
                   </div>
                 </div>
               </div>
@@ -73,19 +78,19 @@ const ProgramsPage: React.FC = () => {
                 <div className="w-full aspect-square">
                   <img 
                     src="/api/placeholder/500/500" 
-                    alt="Family Services" 
+                    alt={t('programs.family_services.alt_text')} 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 flex flex-col">
-                  <h2 className="text-2xl font-semibold text-purple-800 mb-4">Family Services</h2>
+                  <h2 className="text-2xl font-semibold text-purple-800 mb-4">{t('programs.family_services.title')}</h2>
                   <p className="text-gray-600 mb-4">
-                    All age groups
+                    {t('programs.family_services.age_range')}
                     <br /><br />
-                    Ranging from buenas dias to summer exploration, look at what more Mi Casita can offer.
+                    {t('programs.family_services.description')}
                   </p>
                   <div className="mt-auto">
-                    <a href="/family-services" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Read More</a>
+                    <a href={t('programs.family_services.link')} className="text-blue-600 hover:text-blue-800 transition-colors duration-200">{t('programs.family_services.read_more')}</a>
                   </div>
                 </div>
               </div>
@@ -95,6 +100,14 @@ const ProgramsPage: React.FC = () => {
       </main>
     </>
   );
+};
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale ?? 'en', ['programs'])),
+    },
+  };
 };
 
 export default ProgramsPage;
