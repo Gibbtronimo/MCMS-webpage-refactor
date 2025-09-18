@@ -1,0 +1,44 @@
+{
+  "page": {
+    "title": "About Us - Micasita",
+    "description": "Learn more about Micasita's mission and history"
+  },
+  "first": {
+    "title": "Why Montessori?",
+    "paragraph1": "Mi Casita Montessori School serves children of 18 months to six years of age and offers a unique approach to develop the whole child. To accomplish this total development, we follow the educational philosophy of Dr. Maria Montessori, an Italian physician and pioneer in child development from the early 1900's, who observed that children have a natural desire to learn for themselves through stimulating hands-on activities that help them grow into self-motivated, independent learners.",
+    "paragraph2": "We wish to go a step further in the development of the whole child by offering a total Spanish immersion environment to take advantage of the child's ability to learn multiple languages naturally and simultaneously. The children are free to speak whatever language they choose. The teachers speak to the children only in Spanish all day long. The only exception is that during the Kindergarten year, an English-speaking Montessori teachers works with the children in English to practice reading and writing during the afternoon work cycle.",
+    "paragraph3": "As Dr. Montessori stated, the prime time of learning is between birth and the age of six. During these formative years, children go through a series of sensitive periods when an inner desire to learn for themselves drives the activities they engage in. However, children cannot satisfy these inner impulsions to learn and explore if they find nothing in their surroundings. The extent of their development is limited by their environment.",
+    "paragraph4": "We believe in the importance of development of the whole child during these formative years--academically, socially, physically, ethically, and emotionally in a bilingual environment. As a result, we have come together to establish the Mi Casita Montessori School. Our mission is to provide a stimulating, bilingual environment where children can freely explore, learn, and develop the skills needed for life."
+  },
+  "second": {
+    "title": "Montessori is for your child",
+    "paragraph1": "We believe that a child's early years provide a foundation of growth and development for the rest of his/her life. Research has proven that eighty percent of the child's mental development takes place before the age of eight. Children at this age are also at the prime time to learn multiple languages easily and naturally. In order to help our children develop to their fullest potential, we believe an environment must be created that stimulates their inner desire to learn and provides them with the experiences of belonging to a community valuing love, respect, and order.",
+    "paragraph2": "Not only should children learn how read, write, and compute, but more importantly they should learn how to think creatively, make decisions and choices independently, be responsible for their actions and environment, work in a group, become active citizens, and respect diversity of culture and their environment. In other words, the goal of education at this stage in life is the development of the whole child--academically, socially, physically, ethically, and emotionally. However, we recognize that each child is an individual, developing at his/her own rate. Thus we have chosen to fulfill our mission by preparing our bilingual programs and environment according to the Montessori philosophy. We not only strongly believe in the benefits of a Montessori education but we have seen the positive results in children first hand."
+  },
+  "third": {
+    "title": "",
+    "history": {
+      "title": "A Brief History",
+      "paragraph1": "The Montessori method of education was developed by Dr. Maria Montessori (1870-1952) of Italy in the early 1900s. Though she was a physician, she devoted most of her life to the education of children all around the world. Initially she began working with children with special needs. Through her scientific observations, she came to see how children interacted with one an another, how they learned, and what they naturally were drawn to learn at various ages and phases of development (sensitive periods).",
+      "paragraph2": "She showed that what helps children with special needs to learn also helps other children to learn. Her observations led to the theory that children have a natural desire to learn for themselves through hands-on activities using the five senses. The goal of early childhood education should not be to fill the child with facts but rather to cultivate his/her natural desire to learn and perfect all the natural tools for learning."
+    },
+    "bilingual1": {
+      "title": "Why Bilingual Montessori?",
+      "paragraph": "How best to give your child \"an Advantage for Life\" than to give your child the opportunity to become part of a unique, bilingual environment. At \"mi casita\", or \"my little house\", your child will enter a fascinating place that will become a place of comfort, belonging, and learning about life and becoming independent. Here your child can work at his or her own pace and build a foundation of skills needed for life. Depending on your child's age and developmental readiness, your child will join our Toddler Community (18 months to 3 years of age) or one of our Children's House (3 to 6 years of age)."
+    },
+    "bilingual2": {
+      "title": "Bilingual",
+      "paragraph1": "It is during the sensitive period of language (birth to age 8) when children can learn any language with minimal effort in a natural way. To take advantage of this ability, our Montessori teachers carry on all the daily activities in the Spanish language while the children are free to speak any language that occurs to them. The \"absorbent mind\" of the child picks up the language by making associations with what is heard to the daily routines and to the materials the child is seeing and using.",
+      "paragraph2": "In addition to developing a usable fluency in Spanish, the children develop the ability and willingness to tolerate ambiguity and to search for meaning. The exposure of a second language not only stimulates and challenges the brain but builds an extra mental capacity and further develops concentration, listening, analyzing, and verbal skills."
+    }
+  },
+  "fourth": {
+    "title": "Montessori",
+    "paragraph1": "A Montessori environment is a unique and fascinating place where multi-aged children actively engage in a myriad of purposeful activity. Each child chooses his/her own \"work\" whether it be polishing, painting, preparing snack, watering a plant, matching, grading the knobbed cylinders or pink tower cubes, touching and sounding out the sandpaper letters, labeling a map of the world, or learning about quantities with the spindle rods. They are able to enjoy considerable freedom of choice and activity because of the carefully \"prepared environment\" tailored to their sizes, abilities, and needs and because of learning how to live within a community of respect, love and order. The Montessori-trained teacher is a \"guide\" who follows the individual child's development by linking the child to an activity or material depending on his/her need, interest or readiness. Thus, the children progress at their own pace and build a foundation of skills needed for life.",
+    "paragraph2": "In both of our mixed-aged communities, social interaction spontaneously occurs, benefiting all the children. The younger children are inspired by the advanced work they see, and the older children reinforce their skills and enhance their self-confidence and self-esteem by teaching the younger ones. All the children learn to become an important and contributing member of their community. Benefiting from language immersion and the Montessori experience, your child will not only learn how to read, write, compute and speak two languages but more importantly your child will learn how to learn--how to think creatively and analytically, make decisions and choices independently, be responsible for his/her own actions and environment, work within a community, and respect diversity."
+  },
+  "fifth": {
+    "title": "Mi Casita, a BILINGUAL MONTESSORI environment",
+    "paragraph1": "Benefiting from language immersion and the Montessori experience, your child will not only learn how to read, write, compute and speak two languages but more importantly your child will learn how to learn--how to think creatively and analytically, make decisions and choices independently, be responsible for his/her own actions and environment, work within a community, and respect diversity."
+  }
+}
