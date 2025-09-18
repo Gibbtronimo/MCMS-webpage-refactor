@@ -1,0 +1,46 @@
+{
+  "page": {
+    "title": "Staff - Micasita",
+    "description": "Meet our dedicated team of professionals",
+    "heading": "Our Team",
+    "intro": "Our dedicated team of professionals is committed to serving our community with compassion, expertise, and cultural sensitivity."
+  },
+  "readMore": "Read More",
+  "staff": {
+    "member1": {
+      "name": "Se\u00F1ora Mayra",
+      "description": "Señora Mayra is currently the Montessori Teacher Supervisor and Curriculum Coordinator after heading the Jardin de las Flores classroom since Mi Casita opened up in 2001. She is a native of Mexico City.",
+      "readMoreLink": "https://www.micasita.com/staff/mayra"
+    },
+    "member2": {
+      "name": "Se\u00F1ora Azucena",
+      "description": "Señora Azucena",
+      "readMoreLink": "https://www.micasita.com/staff/azucena"
+    },
+    "member3": {
+      "name": "Se\u00F1ora Rebeca",
+      "description": "Señora Rebeca is the Montessori Head Teacher for El Pequeño Campo Children's House.",
+      "readMoreLink": "https://www.micasita.com/staff/rebeca"
+    },
+    "member4": {
+      "name": "Se\u00F1ora Claudia",
+      "description": "Señora Claudia is the Montessori Head Teacher for El Jardin de las Flores Children's House. ",
+      "readMoreLink": "https://www.micasita.com/staff/claudia"
+    },
+    "member5": {
+      "name": "Se\u00F1ora Blanca",
+      "description": "Señora Blanca is our Solarium Toddler Community Head Teacher.",
+      "readMoreLink": "https://www.micasita.com/staff/blanca"
+    },
+    "member6": {
+      "name": "Se\u00F1ora Liz",
+      "description": "Señora Liz serves as the director and school business administrator. ",
+      "readMoreLink": "https://www.micasita.com/staff/liz"
+    },
+    "member7": {
+      "name": "Se\u00F1ora Rosa",
+      "description": "Señora Rosa is our Outdoor and Physical Education Guide.  She also serves as our Program Support Specialist.",
+      "readMoreLink": "https://www.micasita.com/staff/rosa"
+    }
+  }
+}

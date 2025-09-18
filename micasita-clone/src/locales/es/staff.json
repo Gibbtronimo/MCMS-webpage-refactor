@@ -1,0 +1,46 @@
+{
+  "page": {
+    "title": "Personal - Micasita",
+    "description": "Conoce a nuestro equipo dedicado de profesionales",
+    "heading": "Nuestro Equipo",
+    "intro": "Nuestro equipo dedicado de profesionales está comprometido a servir a nuestra comunidad con compasión, experiencia y sensibilidad cultural."
+  },
+  "readMore": "Leer Más",
+  "staff": {
+    "member1": {
+      "name": "Señora Mayra",
+      "description": "Señora Mayra es actualmente la Supervisora de Maestros Montessori y Coordinadora de Currículo después de dirigir el aula Jardín de las Flores desde que Mi Casita abrió en 2001. Es nativa de la Ciudad de México.",
+      "readMoreLink": "https://www.micasita.com/staff/mayra"
+    },
+    "member2": {
+      "name": "Señora Azucena",
+      "description": "Señora Azucena",
+      "readMoreLink": "https://www.micasita.com/staff/azucena"
+    },
+    "member3": {
+      "name": "Señora Rebeca",
+      "description": "Señora Rebeca es la Maestra Principal Montessori para la Casa de Niños El Pequeño Campo.",
+      "readMoreLink": "https://www.micasita.com/staff/rebeca"
+    },
+    "member4": {
+      "name": "Señora Claudia",
+      "description": "Señora Claudia es la Maestra Principal Montessori para la Casa de Niños El Jardín de las Flores.",
+      "readMoreLink": "https://www.micasita.com/staff/claudia"
+    },
+    "member5": {
+      "name": "Señora Blanca",
+      "description": "Señora Blanca es nuestra Maestra Principal de la Comunidad de Infantes del Solarium.",
+      "readMoreLink": "https://www.micasita.com/staff/blanca"
+    },
+    "member6": {
+      "name": "Señora Liz",
+      "description": "Señora Liz sirve como directora y administradora comercial de la escuela.",
+      "readMoreLink": "https://www.micasita.com/staff/liz"
+    },
+    "member7": {
+      "name": "Señora Rosa",
+      "description": "Señora Rosa es nuestra Guía de Educación Física y Actividades al Aire Libre. También sirve como nuestra Especialista de Apoyo de Programas.",
+      "readMoreLink": "https://www.micasita.com/staff/rosa"
+    }
+  }
+}
