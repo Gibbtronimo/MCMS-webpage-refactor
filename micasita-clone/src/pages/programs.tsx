@@ -19,9 +19,18 @@ const ProgramsPage: React.FC = () => {
           <h1 className="text-4xl font-bold text-gray-800 mb-6">
             {t('header.title')}
           </h1>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-6">
             {t('header.subtitle')}
           </p>
+          
+          {/* Tuition Banner */}
+          <div className="bg-blue-600 hover:bg-blue-700 transition-colors duration-200 rounded-lg shadow-md mb-8 w-1/3 mx-auto">
+            <a href={t('tuition_banner.link')} className="block p-4 text-center">
+              <span className="text-white font-semibold text-lg">
+                {t('tuition_banner.text')}
+              </span>
+            </a>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Toddler Community */}
